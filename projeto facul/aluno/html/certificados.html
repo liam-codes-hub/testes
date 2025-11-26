@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meus Certificados</title>
+    <link rel="stylesheet" href="../css/certificados.css">
+</head>
+
+<body>
+
+    <!-- HEADER padrão -->
+ <header class="header">
+        <div class="logo">BRIDGE <span>PROJECTS</span></div>
+
+        <nav class="menu">
+            <a href="index.html" >Início</a>
+            <a href="vagas.html">Vagas</a>
+            <a href="candidaturas.html">Candidaturas</a>
+            <a href="perfil.html">Perfil</a>
+            <a href="#">Sair</a>
+        </nav>
+    </header>
+
+    <main class="conteudo">
+
+        <h1 class="titulo">Meus Certificados</h1>
+        <p class="subtitulo">Acompanhe seus certificados concluídos e os que estão em andamento.</p>
+
+        <!-- Navegação interna -->
+        <div class="switcher">
+            <a href="index.html">Meus Projetos</a>
+            <a href="propostas.html">Propostas de Gerentes</a>
+            <a class="ativo" href="certificados.html">Meus Certificados</a>
+            <a href="historico.html">Histórico</a>
+        </div>
+
+        <!-- CERTIFICADO CONCLUÍDO -->
+        <div class="cert-card concluido">
+            <div class="cert-header">
+                <h2>Certificado Frontend Avançado</h2>
+                <span class="status finalizado">Concluído</span>
+            </div>
+
+            <p class="info"><strong>Data de Conclusão:</strong> 15 Dez 2024</p>
+
+            <div class="skills">
+                <span>React</span>
+                <span>UI/UX</span>
+                <span>JavaScript</span>
+            </div>
+
+            <button class="btn-download">Baixar Certificado</button>
+        </div>
+
+        <!-- CERTIFICADO EM PROGRESSO -->
+        <div class="cert-card andamento">
+            <div class="cert-header">
+                <h2>Certificação Full-Stack Developer</h2>
+                <span class="status andamento">Em Progresso</span>
+            </div>
+
+            <p class="info"><strong>Progresso:</strong> 45%</p>
+
+            <div class="barra">
+                <div class="barra-progresso" style="width: 45%;"></div>
+            </div>
+
+            <div class="skills">
+                <span>Node.js</span>
+                <span>APIs</span>
+                <span>PostgreSQL</span>
+            </div>
+
+            <button class="btn-detalhes">Ver Detalhes</button>
+        </div>
+
+    </main>
+
+</body>
+</html>

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Empresa</title>
+    <link rel="stylesheet" href="../css_paginas/home_aluno.css">
+</head>
+
+<body>
+
+    <!-- HEADER da empresa -->
+ <header class="header">
+    <div class="logo">BRIDGE <span>INTERNSHIPS</span></div>
+
+    <nav class="menu">
+        <a href="home_empresa.html">Início</a>
+        <a href="perfil_empresa.html">Perfil</a>
+        <a href="enviar_projeto.html">Enviar Projeto</a>
+        <a href="#">Sair</a>
+    </nav>
+</header>
+
+
+    <main class="conteudo">
+
+        <h1 class="titulo">Painel da Empresa</h1>
+        <p class="subtitulo">Gerencie suas vagas e candidatos.</p>
+
+        <!-- SWITCHER padrão -->
+        <div class="switcher">
+            <a class="ativo" href="home_empresa.html">Início</a>
+            <a href="vagas_empresa.html">Vagas</a>
+            <a href="candidatos_empresa.html">Candidatos</a>
+            <a href="propostas_empresa.html">Propostas</a>
+            <a href="historico_empresa.html">Histórico</a>
+        </div>
+
+        <!-- =========================== -->
+        <!-- VAGA 1 -->
+        <div class="proj-card">
+            <div class="linha">
+                <h2>Estágio em Desenvolvimento Web</h2>
+                <span class="tag">Abertas</span>
+            </div>
+
+            <p class="info">
+                5 candidatos aplicaram para esta vaga recentemente.
+            </p>
+
+            <button class="btn-ver" onclick="location.href='vaga_detalhes_empresa.html'">
+                Ver detalhes
+            </button>
+        </div>
+
+        <!-- VAGA 2 -->
+        <div class="proj-card">
+            <div class="linha">
+                <h2>Estágio em Análise de Dados</h2>
+                <span class="tag">Abertas</span>
+            </div>
+
+            <p class="info">
+                3 candidatos aguardando avaliação.
+            </p>
+
+            <button class="btn-ver" onclick="location.href='vaga_detalhes_empresa.html'">
+                Ver detalhes
+            </button>
+        </div>
+
+        <!-- VAGA 3 -->
+        <div class="proj-card">
+            <div class="linha">
+                <h2>Estágio em UX/UI Design</h2>
+                <span class="tag">Fechada</span>
+            </div>
+
+            <p class="info">
+                Vaga encerrada após aprovação do candidato selecionado.
+            </p>
+
+            <button class="btn-ver" onclick="location.href='vaga_detalhes_empresa.html'">
+                Ver detalhes
+            </button>
+        </div>
+
+    </main>
+
+</body>
+
+</html>

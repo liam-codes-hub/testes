@@ -1,0 +1,1 @@
+// kavascript gerente

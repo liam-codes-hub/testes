@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bridge Internships - Vagas Disponíveis</title>
+
+    <link rel="stylesheet" href="../css_paginas/vagas.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- HEADER PADRÃO -->
+    <header class="header">
+        <div class="header-container">
+            <div class="logo">
+                <span class="logo-main">BRIDGE</span>
+                <span class="logo-sub">PROJECTS</span>
+            </div>
+
+            <nav class="nav">
+                <a href="#" class="nav-link">Início</a>
+                <a href="#" class="nav-link active">Vagas</a>
+                <a href="#" class="nav-link">Perfil</a>
+                <a href="#" class="nav-link">Sair</a>
+            </nav>
+        </div>
+    </header>
+
+
+    <main class="main-wrapper">
+
+        <!-- TÍTULO -->
+        <section class="page-header">
+            <h1 class="page-title">Vagas Disponíveis</h1>
+            <p class="page-subtitle">Encontre oportunidades alinhadas ao seu perfil acadêmico.</p>
+        </section>
+
+        <!-- FILTROS (opcional) -->
+        <section class="filters">
+            <input type="text" placeholder="Buscar vaga..." class="search-input">
+            <select class="select-filter">
+                <option value="">Área</option>
+                <option>Desenvolvimento Web</option>
+                <option>Mobile</option>
+                <option>Design</option>
+                <option>Dados</option>
+            </select>
+
+            <select class="select-filter">
+                <option value="">Nível</option>
+                <option>Iniciante</option>
+                <option>Intermediário</option>
+            </select>
+        </section>
+
+        <!-- LISTA DE VAGAS -->
+        <section class="vagas-list">
+
+            <!-- VAGA 1 -->
+            <article class="vaga-card">
+                <header class="vaga-header">
+                    <h2 class="vaga-title">Desenvolvedor Frontend Júnior</h2>
+                    <span class="vaga-badge nova">Nova</span>
+                </header>
+
+                <p class="vaga-company">TechCorp • São Paulo, SP</p>
+
+                <div class="vaga-info">
+                    <span><i class="fa-regular fa-clock"></i> 20h semanais</span>
+                    <span><i class="fa-solid fa-graduation-cap"></i> 4° semestre+</span>
+                </div>
+
+                <p class="vaga-desc">
+                    Atuar na construção de interfaces usando React e colaborar com o time de UI/UX.
+                </p>
+
+                <div class="tags-wrapper">
+                    <span class="tag">React</span>
+                    <span class="tag">JavaScript</span>
+                    <span class="tag">CSS</span>
+                </div>
+
+                <button class="apply-btn">
+                    Candidatar-se
+                </button>
+            </article>
+
+
+            <!-- VAGA 2 -->
+            <article class="vaga-card">
+                <header class="vaga-header">
+                    <h2 class="vaga-title">Assistente de Design</h2>
+                    <span class="vaga-badge destaque">Destaque</span>
+                </header>
+
+                <p class="vaga-company">Bright Design Studio • Remoto</p>
+
+                <div class="vaga-info">
+                    <span><i class="fa-solid fa-laptop-code"></i> Home Office</span>
+                    <span><i class="fa-solid fa-user"></i> 1 vaga</span>
+                </div>
+
+                <p class="vaga-desc">
+                    Criar layouts, paletas, elementos visuais e componentes seguindo guidelines.
+                </p>
+
+                <div class="tags-wrapper">
+                    <span class="tag">Figma</span>
+                    <span class="tag">UI/UX</span>
+                    <span class="tag">Prototipação</span>
+                </div>
+
+                <button class="apply-btn">
+                    Candidatar-se
+                </button>
+            </article>
+
+
+            <!-- VAGA 3 -->
+            <article class="vaga-card">
+                <header class="vaga-header">
+                    <h2 class="vaga-title">Backend Node.js</h2>
+                    <span class="vaga-badge fechada">Encerrada</span>
+                </header>
+
+                <p class="vaga-company">DevHouse • Híbrido - SP</p>
+
+                <div class="vaga-info">
+                    <span><i class="fa-solid fa-server"></i> Node.js</span>
+                    <span><i class="fa-solid fa-database"></i> PostgreSQL</span>
+                </div>
+
+                <p class="vaga-desc">
+                    Desenvolver APIs REST, banco de dados e integrações com sistemas internos.
+                </p>
+
+                <div class="tags-wrapper">
+                    <span class="tag">Node.js</span>
+                    <span class="tag">SQL</span>
+                    <span class="tag">API REST</span>
+                </div>
+
+                <button class="apply-btn disabled" disabled>
+                    Encerrada
+                </button>
+            </article>
+
+        </section>
+
+    </main>
+
+</body>
+
+</html>
