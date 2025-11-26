@@ -1,0 +1,33 @@
+
+
+<body>
+
+    <!-- AJUSTE PARA MANTER O PADRÃO DAS OUTRAS PÁGINAS -->
+    <div class="page-spacing"></div>
+
+    <!-- HEADER PADRÃO -->
+    <header class="header">
+        <div class="logo">BRIDGE PROJECTS</div>
+
+        <nav class="menu">
+            <a href="index.html">Início</a>
+            <a href="vagas.html">Vagas</a>
+            <a href="candidaturas.html">Candidaturas</a>
+            <a href="perfil.html">Perfil</a>
+            <a href="#">Sair</a>
+        </nav>
+    </header>
+
+    <!-- CONTEÚDO PRINCIPAL -->
+    <main class="container">   <!-- CORRIGIDO -->
+
+        <section class="page-header">
+            <h1 class="page-title">Meu Perfil</h1>
+            <p class="page-subtitle">Gerencie suas informações pessoais e profissionais.</p>
+        </section>
+
+       
+
+    </main>
+
+</body>
